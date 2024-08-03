@@ -8,7 +8,7 @@ To excecute my Automation script you need to follow below steps
 
 2- Create a Package inside it
 
-3- Create a java class and copy paste the code from my repo
+3- Create a java class and copy paste the code from src/com/fitpeoAssignment/FitpeoAssignment.java
 
 4- Add the Selenium jar in ClassPath
 
