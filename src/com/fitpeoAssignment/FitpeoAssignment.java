@@ -14,7 +14,10 @@ public class FitpeoAssignment {
 		System.setProperty("WebDriver.chrome.driver","C:\\Users\\asisc\\Downloads\\Selenium JAR & sw\\chromedriver.exe");
 		ChromeDriver cd = new ChromeDriver();
 		cd.manage().window().maximize();
-
+		
+		/*Used Thread.sleep() only for demonstration purpose. I am well aware of the fact that using Thread.sleep() 
+  		generally not recommended in professional automation scripts because it can make my tests less efficient and more prone to timing issues.*/
+		
 		/*1.Navigate to the FitPeo Home page*/
 		cd.get("https://www.fitpeo.com/");
 
